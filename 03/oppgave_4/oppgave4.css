@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+html, body { 
+    font-family: monospace; 
+    background-color: #252526;
+}
+body { 
+    margin: 0 auto; 
+    max-width: 50vw; 
+    color: #FFF;
+}
+main { 
+    text-align: center; 
+    width: fit-content;
+    margin: 0 auto;
+}
+button { 
+    width: 100%;
+    padding: 1.5rem; 
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: monospace;
+}
+button:hover {
+    border: 1px dashed #FFF;
+    color: #FFF;
+    font-weight: bolder;
+}
+button:active {
+    color: #000;
+    background-color: #FFF;
+}
+p { margin: 3rem 0; }
+ul { 
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#numbers {
+    list-style: none;
+    counter-reset: numbers;
+    margin: 1rem 0;
+}
+
+#numbers li { 
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border: 1px solid #FFF;
+    border-radius: 0.5rem;
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+#numbers li:before {
+    position: absolute;
+    left: -3vw;
+    font-size: 1.3rem;
+    counter-increment: numbers 1;
+    content: "" counter(numbers) ".";
+    color: #64ffda;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#numbers li:hover {
+    font-weight: bolder;
+    border: 1px dashed #FFF;
+    outline: 0px;
+}
+
+#numbers li.active { 
+    color: #000;
+    background: #64ffda; 
+}
+#numbers li.target { 
+    color: unset;
+    background: unset; 
+    border: 1px dashed #FFF;
+    opacity: 0.5;
+}
