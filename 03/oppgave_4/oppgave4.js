@@ -11,9 +11,9 @@ const numbers = document.getElementById("numbers") // <ul>
 const button = document.querySelector("button")
 
 // TODO: Lag en liste med tallene som skal sorteres
-const createNumsArray = () => {
+const createNumsArray = (count, range) => {
     let nums = new Set();
-    while (nums.size < COUNT) nums.add(Math.floor((Math.random() * RANGE) + 1))
+    while (nums.size < count) nums.add(Math.floor((Math.random() * range) + 1))
     return [...nums];
 }
 
@@ -29,8 +29,8 @@ const createFields = numsArray => {
     }
 }
 
-const handleFields = () => {
-    const list = document.getElementById("numbers")
+const handleFields = target => {
+    const list = document.getElementById(target)
 
     let items = Array.from(list.getElementsByTagName("li"))
     let current = null
@@ -95,8 +95,8 @@ const handleClick = () => console.log(isSorted(getFieldValues()))
 
 // TODO: Lag en funksjon som "lager UI" --Nødvendig?
 const initialize = () => {
-    createFields(createNumsArray())
-    window.addEventListener("DOMContentLoaded", handleFields);
+    createFields(createNumsArray(COUNT, RANGE))
+    window.addEventListener("DOMContentLoaded", handleFields("numbers"));
     button.addEventListener("click", handleClick)
 }
 initialize()
