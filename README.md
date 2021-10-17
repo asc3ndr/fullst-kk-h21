@@ -5,6 +5,16 @@
                 <h1><strong>FULLSTÆKK UTVIKLING // INNLEVERINGER</strong></h1>
             </header>
             <section>
+                <h2>12. <strong>Testing</strong></h2>
+                <div>
+                    <h3><em>Notat til oppgave 2.</em></h3>
+                    <p>
+                    Ikke spesielt inspirert gjennomføring fra min side, men jeg måtte bare få ut noe før fristen da jeg flytter dagen før innlevering. Virker som et greit rammeverk å forholde seg til, men litt knotete å håndtere å sette argument direkte i testene så jeg valgte å unngå det. Mulig jeg ikke forsto videoene. 
+                    </p>
+                </div>
+            </section>
+            <br><hr><br>
+            <section>
                 <h2>03. <strong>Intro til JavaScript</strong></h2>
                 <div>
                     <h3><em>Notat til oppgave 4.</em></h3>
@@ -35,16 +45,6 @@
                 <div>
                     <h3><em>Notat til oppgave 6.</em></h3>
                     <p>Har ikke laget et Trello board, tross at jeg allerede har en bruker og er velkjent med bruk av verktøyet. Foretrekker å bruke Github projects til private eller skole-prosjekter.</p>
-                </div>
-            </section>
-            <br><hr><br>
-            <section>
-                <h2>12. <strong>Testing</strong></h2>
-                <div>
-                    <h3><em>Notat til oppgave 2.</em></h3>
-                    <p>
-                    Ikke spesielt inspirert gjennomføring fra min side, men jeg måtte bare få ut noe før fristen da jeg flytter dagen før innlevering. Virker som et greit rammeverk å forholde seg til, men litt knotete å håndtere å sette argument direkte i testene så jeg valgte å unngå det. Mulig jeg ikke forsto videoene. 
-                    </p>
                 </div>
             </section>
         </div>
