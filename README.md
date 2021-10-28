@@ -5,6 +5,17 @@
                 <h1><strong>FULLSTÆKK UTVIKLING // INNLEVERINGER</strong></h1>
             </header>
             <section>
+                <h2>14. <strong>Next Intro</strong></h2>
+                <div>
+                    <h3><em>Notat til oppgave</em></h3>
+                    <p>
+                    Lagrer brukernavn og passord i liste via form skjema, og henter all informasjonen til en ny side /credentials.
+                    Implementerte ikke fetching av en enkelt instans fordi jeg greide ikke finne en god måte gjøre state tilgjengelig på uten en database.
+                    </p>
+                </div>
+            </section>
+            <br><hr><br>
+            <section>
                 <h2>12. <strong>Testing</strong></h2>
                 <div>
                     <h3><em>Notat til oppgave 2.</em></h3>
